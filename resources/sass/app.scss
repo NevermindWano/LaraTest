@@ -1,0 +1,42 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Icons
+@import '~simple-line-icons/css/simple-line-icons.css';
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+
+span.link {
+    color: #5b5d80;
+    cursor: pointer;
+    &:hover {
+        color: #0e1380;
+        text-decoration: underline;
+    }
+}
+
+.navbar-nav {
+    width: 100%;
+}
+
+.nav_left {
+    display: flex;
+    width: 100%;
+    flex-flow: row;
+    justify-content: flex-end;
+    .img-avatar {
+        width: 25px;
+    }
+}
+
+.guestbook {
+    .media {
+        border: #0a3544 1px;
+    }
+    img {
+        width: 100px;
+    }
+}
