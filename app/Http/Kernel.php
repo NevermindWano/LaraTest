@@ -65,7 +65,7 @@ class Kernel extends HttpKernel
         /**
          * Только для админов и модераторов
          */
-        'admin' => 'App\Http\Middleware\isAdmin',
+        'admin' => \App\Http\Middleware\IsAdmin::class,
     ];
 
     /**
